@@ -1,0 +1,13 @@
+<h1>Habits</h1>
+
+<table class="table table-striped">
+  <tr>
+    <th>Date</th>
+    <% @habits.each do |habit| %>
+      <th><%= habit.name %></th>
+    <% end %>
+  </tr>
+  <tbody>
+
+  </tbody>
+</table>
